@@ -63,3 +63,11 @@ boolean isAdult; // Declare a variable named 'isAdult' that will hold true or fa
 double price;   // Declare a variable named 'price' that will hold numbers with decimal points (double)
 ```
 
+*Initialization of variables*
+
+```java
+age = 16;
+name = "Alice";
+isAdult = false;
+price = 99.99;
+```
