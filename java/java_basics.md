@@ -1,4 +1,4 @@
-# Day 1: Hour 1 - Introduction to Java & Setup
+# Introduction to Java & Setup
 
 Welcome to Java programming! Don't worry if you feel a bit nervous, everyone starts somewhere. We'll take it step-by-step.
 
@@ -45,7 +45,7 @@ Imagine you want to give instructions to a computer to do something.  Java is li
        }
    }
 
-# Day 1: Hour 2 - Java Fundamentals: Variables, Data Types, Operators
+# Java Fundamentals: Variables, Data Types, Operators
 Now let's learn some basic building blocks of Java:
 
 **Variables** -  Containers for Information
@@ -71,3 +71,49 @@ name = "Alice";
 isAdult = false;
 price = 99.99;
 ```
+
+**Declaration and Initialization together**
+
+```Java
+
+int age = 16;
+String name = "Alice";
+boolean isAdult = false;
+double price = 99.99;
+```
+
+**Operations with variables**
+```java
+int number1 = 10;
+int number2 = 5;
+int sum = number1 + number2; // sum will be 15
+int difference = number1 - number2; // difference will be 5
+int product = number1 * number2; // product will be 50
+int quotient = number1 / number2; // quotient will be 2
+System.out.println("Sum: " + sum); // Printing the sum
+```
+
+**Adding Comments**
+```java
+/*
+ * This is a
+ * multi-line comment
+ */
+
+// THis is a single line comment
+```
+
+**Lets do some practice**
+Q1: Area of a Rectangle:
+
+*Declare two double variables for length and width.
+Initialize them with some values.
+Calculate the area (length * width) and store it in a double variable called area.
+Print the area to the console.*
+
+Q2: Concatenate Strings:
+
+*Declare two String variables for firstName and lastName.
+Initialize them with your first and last name.
+Create a String variable called fullName by joining firstName, a space " ", and lastName.
+Print fullName.*
